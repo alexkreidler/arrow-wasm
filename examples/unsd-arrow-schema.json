@@ -1,0 +1,101 @@
+{
+    "_comment": "generated with Arrow's rust infer_reader_schema running in NodeJS via WASM",
+    "fields": [
+        {
+            "name": "Country or Area",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "Year",
+            "nullable": false,
+            "type": {
+                "name": "int",
+                "bitWidth": 64,
+                "isSigned": true
+            },
+            "children": []
+        },
+        {
+            "name": "Area",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "Sex",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "City",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "City type",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "Record Type",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "Reliability",
+            "nullable": false,
+            "type": {
+                "name": "utf8"
+            },
+            "children": []
+        },
+        {
+            "name": "Source Year",
+            "nullable": false,
+            "type": {
+                "name": "int",
+                "bitWidth": 64,
+                "isSigned": true
+            },
+            "children": []
+        },
+        {
+            "name": "Value",
+            "nullable": false,
+            "type": {
+                "name": "floatingpoint",
+                "precision": "DOUBLE"
+            },
+            "children": []
+        },
+        {
+            "name": "Value Footnotes",
+            "nullable": true,
+            "type": {
+                "name": "int",
+                "bitWidth": 64,
+                "isSigned": true
+            },
+            "children": []
+        }
+    ],
+    "metadata": {}
+}

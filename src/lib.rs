@@ -1,3 +1,4 @@
+mod csv;
 mod datatype;
 mod field;
 mod record_batch;
